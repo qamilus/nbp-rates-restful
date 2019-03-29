@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExchangeRatesSeries
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Table>A</Table>
+	<Currency>euro</Currency>
+	<Code>EUR</Code>
+	<Rates>
+		<Rate>
+			<No>060/A/NBP/2019</No>
+			<EffectiveDate>2019-03-26</EffectiveDate>
+			<Mid>4.2970</Mid>
+		</Rate>
+		<Rate>
+			<No>061/A/NBP/2019</No>
+			<EffectiveDate>2019-03-27</EffectiveDate>
+			<Mid>4.2991</Mid>
+		</Rate>
+		<Rate>
+			<No>062/A/NBP/2019</No>
+			<EffectiveDate>2019-03-28</EffectiveDate>
+			<Mid>4.2998</Mid>
+		</Rate>
+	</Rates>
+</ExchangeRatesSeries>
