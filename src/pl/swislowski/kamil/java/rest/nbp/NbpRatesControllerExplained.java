@@ -4,11 +4,6 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
-import javax.ws.rs.QueryParam;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
@@ -19,7 +14,7 @@ import pl.swislowski.kamil.java.rest.nbp.model.AvgResponse;
 import pl.swislowski.kamil.java.rest.nbp.model.ExchangeRatesSeries;
 import pl.swislowski.kamil.java.rest.nbp.model.Rate;
 
-@Path("exchangerates/rates")
+//@Path("exchangerates/rates")
 public class NbpRatesControllerExplained {
 
 //	@GET
@@ -29,11 +24,17 @@ public class NbpRatesControllerExplained {
 //			@QueryParam("topCount") String topCount
 //			) {
 
-	@GET
-	@Path("{table}/{code}/{topCount}")
-	@Produces(MediaType.APPLICATION_XML)
-	public AvgResponse avgRate(@PathParam("table") String table, @PathParam("code") String code,
-			@PathParam("topCount") String topCount) {
+//	@GET
+//	@Path("{table}/{code}/{topCount}")
+//	@Produces(MediaType.APPLICATION_XML)
+	public AvgResponse avgRate(
+//			@PathParam("table") 
+			String table,
+//			@PathParam("code") 
+			String code,
+//			@PathParam("topCount") 
+			String topCount
+			) {
 
 		AvgResponse avgResponse = null;
 
